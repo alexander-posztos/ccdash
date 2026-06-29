@@ -1,0 +1,14 @@
+# Build output + test artifacts. (The on-disk recap cache lives in the OS cache
+# dir / CCDASH_CACHE_DIR, never in-repo.)
+/ccdash
+/dist/
+/bin/
+*.test
+*.out
+*.exe
+coverage.txt
+
+# macOS
+.DS_Store
+
+/CLAUDE.md
